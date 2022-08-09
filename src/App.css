@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.search_bar {
+  /* width: 60%; */
+  /* margin: 0px auto; */
+}
+
+.result_box {
+  /* width: 60%; */
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  top: 24px;
+}
+
+/* .result_box ul{
+  list-style:none;
+} */
+.result_box li {
+  border-top: 1px solid #ccc;
+  /* width: 100%; */
+
+}
+
+.result_box ul li::marker {
+  content: '👉'
+}
